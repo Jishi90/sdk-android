@@ -1,4 +1,4 @@
-# This workflow will deploy source code on Cloud Run when a commit is pushed to the "primary" branch
+# This workflow will deploy source code on Cloud Run when a commit is pushed to the "master" branch
 #
 # Overview:
 #
@@ -10,7 +10,7 @@
 # 1. Ensure the required Google Cloud APIs are enabled:
 #
 #    Cloud Run            run.googleapis.com
-#    Cloud Build cloudbuild.googleapis.com
+#    Cloud Build          cloudbuild.googleapis.com
 #    Artifact Registry    artifactregistry.googleapis.com
 #
 # 2. Create and configure Workload Identity Federation for GitHub (https://github.com/google-github-actions/auth#setting-up-workload-identity-federation)
